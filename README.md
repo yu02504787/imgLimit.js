@@ -1,0 +1,1 @@
+# imgLimit.js
