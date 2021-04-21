@@ -1,12 +1,19 @@
 # imgLimit.js
-/*
- ⋆ resize images proportionally
- ⋆ @param string src
- ⋆ @param number maxWidth
- ⋆ @param number maxHeight
- ⋆ @param function successCallBackFunction
- ⋆ @param function|null errorCallBackFunction
- /*/
+
+resize images proportionally
+
+*@param string src
+
+*@param number maxWidth
+
+*@param number maxHeight
+
+*@param function successCallBackFunction
+
+*@param function|null errorCallBackFunction
+
+
+```javascript
  var src="https://git.com/xx.png"
  ,maxWidth=640
  ,maxHeight=640
@@ -19,3 +26,4 @@
   console.log(err)
  };
  imgLimit(src,maxWidth,maxHeight,successCallBackFunction,errorCallBackFunction);
+ ```
